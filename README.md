@@ -6,6 +6,6 @@ view: ant-design
 data: mobx
 
 
-预览地址: https://www.yuexiaoya.cn
+预览地址：<a href="http://write.blog.csdn.net/postlist" target="_blank">https://www.yuexiaoya.cn</a>
 
 ### 目前处于开发中....
