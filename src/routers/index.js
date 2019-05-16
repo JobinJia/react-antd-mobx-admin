@@ -8,7 +8,7 @@ const Home = AsyncComponent(() => import('@views/Main/Home'));
 const getRouter = () => (
   <div>
     <Switch>
-      <Route exact path='/' component={ShopAdd}/>
+      {/*<Route exact path='/' component={ShopAdd}/>*/}
       {createNotFoundRoute()}
     </Switch>
   </div>

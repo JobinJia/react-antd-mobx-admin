@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Icon, Spin} from 'antd'
-import './styles.less'
+import './style.less'
 
 class Loading extends Component {
   render() {
