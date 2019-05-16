@@ -1,6 +1,6 @@
 import React from 'react';
 import AsyncComponent from '@utils/AsyncLoad';
-import {Route, Switch} from 'react-router';
+import {Route, Switch} from 'react-router-dom';
 import {createNotFoundRoute} from '../utils/router';
 
 const Home = AsyncComponent(() => import('@views/Main/Home'));

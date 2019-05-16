@@ -14,13 +14,9 @@ class Login extends Component {
     e.preventDefault()
     this.props.form.validateFields(async (err, values) => {
       if (!err) {
-        await this.handleLogin(values)
+        await this.props.appStore.handleLogin(values)
       }
     })
-  }
-
-  handleLogin = async (params) => {
-    console.log(params)
   }
 
   render() {
